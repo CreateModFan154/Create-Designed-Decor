@@ -1,0 +1,1662 @@
+{
+  "mod_elements": [
+    {
+      "name": "SafetyVest",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "safety_vest",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/SafetyVestItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/safety_vest_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "DesignedDecor",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "designed_decor",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BoundCardbaord",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bound_cardbaord",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/blockstates/bound_cardbaord.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/bound_cardbaord.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/BoundCardbaordBlock.java",
+          "src/main/resources/assets/create_designed_decor/models/item/bound_cardbaord.json",
+          "src/main/resources/assets/create_designed_decor/models/block/bound_cardbaord.json"
+        ]
+      }
+    },
+    {
+      "name": "Cardboard",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/block/cardboard.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/cardboard.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/cardboard.json",
+          "src/main/resources/assets/create_designed_decor/models/item/cardboard.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/CardboardBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Weatheredironwindow",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "weatheredironwindow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/blockstates/weatheredironwindow.json",
+          "src/main/resources/assets/create_designed_decor/models/item/weatheredironwindow.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/WeatheredironwindowBlock.java",
+          "src/main/resources/assets/create_designed_decor/models/block/weatheredironwindow.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/weatheredironwindow.json"
+        ]
+      }
+    },
+    {
+      "name": "WeatheredIronBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/weathered_iron_block.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/weathered_iron_block.json",
+          "src/main/resources/assets/create_designed_decor/models/block/weathered_iron_block.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/weathered_iron_block.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/WeatheredIronBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "TrafficCone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traffic_cone",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/block/TrafficConeBlock.java",
+          "src/main/resources/assets/create_designed_decor/models/block/traffic_cone.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/traffic_cone.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/traffic_cone.json",
+          "src/main/resources/assets/create_designed_decor/models/item/traffic_cone.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadBarrier",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_barrier",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/blockstates/road_barrier.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/RoadBarrierBlock.java",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/road_barrier.json",
+          "src/main/resources/assets/create_designed_decor/models/item/road_barrier.json",
+          "src/main/resources/assets/create_designed_decor/models/block/road_barrier.json"
+        ]
+      }
+    },
+    {
+      "name": "CardboardSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboard_sheet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/cardboard_sheet.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/item/CardboardSheetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cardboardrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboardrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/cardboardrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BoundCardboardRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bound_cardboard_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/bound_cardboard_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Pulp",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/pulp.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/item/PulpItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CardboardSheetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboard_sheetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/cardboard_sheetrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sawdust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawdust",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/SawdustItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/sawdust.json"
+        ]
+      }
+    },
+    {
+      "name": "WeatheredIronRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weathered_iron_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/weathered_iron_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WeatherdIronWindowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weatherd_iron_window_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/weatherd_iron_window_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeFabric",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_fabric",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/OrangeFabricItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/orange_fabric.json"
+        ]
+      }
+    },
+    {
+      "name": "SafetyVestRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "safety_vest_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/safety_vest_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Orangefabricrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orangefabricrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/orangefabricrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RoadBarrierRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_barrier_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/road_barrier_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TrafficConerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traffic_conerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/traffic_conerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpindleCrate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cavestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/cavestone.json",
+          "src/main/resources/assets/create_designed_decor/models/block/cavestone.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/SpindleCrateBlock.java",
+          "src/main/resources/assets/create_designed_decor/blockstates/cavestone.json",
+          "src/main/resources/assets/create_designed_decor/models/item/cavestone.json"
+        ]
+      }
+    },
+    {
+      "name": "Spindlecraterecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spindlecraterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/spindlecraterecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ThatLooksFamiliar",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "that_looks_familiar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/advancements/that_looks_familiar.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueHardHat",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_hard_hat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/blue_hard_hat_helmet.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/item/BlueHardHatItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WhiteHardHat",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_hard_hat",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/WhiteHardHatItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/white_hard_hat_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowHardHat",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_hard_hat",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/YellowHardHatItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/yellow_hard_hat_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "RedHardHat",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_hard_hat",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/RedHardHatItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/red_hard_hat_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeHardHat",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_hard_hat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/orange_hard_hat_helmet.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/item/OrangeHardHatItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BluePostBox",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_post_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/blue_post_box.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/blue_post_box.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/BluePostBoxBlock.java",
+          "src/main/resources/assets/create_designed_decor/models/item/blue_post_box.json",
+          "src/main/resources/assets/create_designed_decor/models/block/blue_post_box.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueTableCloth",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_table_cloth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/blue_table_cloth.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/blue_table_cloth.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/blue_table_cloth.json",
+          "src/main/resources/assets/create_designed_decor/models/block/blue_table_cloth.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/BlueTableClothBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Blueprint",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueprint",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/blueprint.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/blueprint.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/blueprint.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/BlueprintBlock.java",
+          "src/main/resources/assets/create_designed_decor/models/block/blueprint.json"
+        ]
+      }
+    },
+    {
+      "name": "ThisAgain",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "this_again",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/advancements/this_again.json"
+        ]
+      }
+    },
+    {
+      "name": "CleakingHelper",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaking_helper",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/client/renderer/CleakingHelperRenderer.java",
+          "src/main/resources/data/create_designed_decor/forge/biome_modifier/cleaking_helper_biome_modifier.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/entity/CleakingHelperEntity.java",
+          "src/main/resources/assets/create_designed_decor/models/item/cleaking_helper_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Packingtape",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packingtape",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/PackingtapeItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/packingtape.json"
+        ]
+      }
+    },
+    {
+      "name": "CardboardRoll",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboard_roll",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/CardboardRollItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/cardboard_roll.json"
+        ]
+      }
+    },
+    {
+      "name": "PackingTapeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packing_tape_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/packing_tape_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CardboardRollRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboard_roll_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/cardboard_roll_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueprintRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueprint_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/blueprint_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueprintlightbluedyeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueprintlightbluedye_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/blueprintlightbluedye_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PulpRecipe",
+      "type": "modded_recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulp_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/mixing/pulp_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MiterSaw",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miter_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/miter_saw.json",
+          "src/main/resources/assets/create_designed_decor/models/block/miter_saw.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/miter_saw.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/miter_saw.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/MiterSawBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SawBlade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saw_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/SawBladeItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/saw_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "MiterSawRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miter_saw_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/miter_saw_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueHardhatrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_hardhatrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/blue_hardhatrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WhiteHardhatrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_hardhatrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/white_hardhatrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowHardhatrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_hardhatrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/yellow_hardhatrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedHardhatrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_hardhatrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/red_hardhatrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeHardhatrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_hardhatrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/orange_hardhatrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sawbladerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawbladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/sawbladerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sawdustrecipe",
+      "type": "modded_recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sawdustrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/sandpaper_polishing/sawdustrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FloorMiterSaw",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floor_miter_saw",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/block/FloorMiterSawBlock.java",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/floor_miter_saw.json",
+          "src/main/resources/assets/create_designed_decor/models/block/floor_miter_saw.json",
+          "src/main/resources/assets/create_designed_decor/models/item/floor_miter_saw.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/floor_miter_saw.json"
+        ]
+      }
+    },
+    {
+      "name": "WrenchlyBox",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrenchly_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/wrenchly_box.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/wrenchly_box.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/wrenchly_box.json",
+          "src/main/resources/assets/create_designed_decor/models/block/wrenchly_box.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/WrenchlyBoxBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ToolRack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tool_rack",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/tool_rack.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/tool_rack.json",
+          "src/main/resources/assets/create_designed_decor/models/item/tool_rack.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/ToolRackBlock.java",
+          "src/main/resources/assets/create_designed_decor/models/block/tool_rack.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueprintTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueprint_table",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/block/BlueprintTableBlock.java",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/blueprint_table.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/blueprint_table.json",
+          "src/main/resources/assets/create_designed_decor/models/item/blueprint_table.json",
+          "src/main/resources/assets/create_designed_decor/models/block/blueprint_table.json"
+        ]
+      }
+    },
+    {
+      "name": "ToolCabinet",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tool_cabinet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/blockstates/tool_cabinet.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/ToolCabinetBlock.java",
+          "src/main/resources/assets/create_designed_decor/models/block/tool_cabinet.json",
+          "src/main/resources/assets/create_designed_decor/models/item/tool_cabinet.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/tool_cabinet.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueprintPile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueprint_pile",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/blueprint_pile.json",
+          "src/main/resources/assets/create_designed_decor/models/item/blueprint_pile.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/blueprint_pile.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/BlueprintPileBlock.java",
+          "src/main/resources/assets/create_designed_decor/models/block/blueprint_pile.json"
+        ]
+      }
+    },
+    {
+      "name": "BlouprintPileRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blouprint_pile_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/blouprint_pile_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Floormitersawrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floormitersawrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/floormitersawrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Blueprinttablerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueprinttablerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/blueprinttablerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ToolRackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tool_rack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/tool_rack_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WrenchlyBoxRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrenchly_box_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/wrenchly_box_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WrenchlyBoxRecipealt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrenchly_box_recipealt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/wrenchly_box_recipealt.json"
+        ]
+      }
+    },
+    {
+      "name": "ToolCabinetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tool_cabinetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/tool_cabinetrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Blahaj",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blahaj",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/BlahajItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/blahaj.json"
+        ]
+      }
+    },
+    {
+      "name": "Desk1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desk_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/blockstates/desk_1.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/Desk1Block.java",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/desk_1.json",
+          "src/main/resources/assets/create_designed_decor/models/item/desk_1.json",
+          "src/main/resources/assets/create_designed_decor/models/block/desk_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Desktop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desktop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/desktop.json",
+          "src/main/resources/assets/create_designed_decor/models/block/desktop.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/DesktopBlock.java",
+          "src/main/resources/assets/create_designed_decor/models/item/desktop.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/desktop.json"
+        ]
+      }
+    },
+    {
+      "name": "DesktopRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desktop_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/desktop_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Pegboard",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pegboard",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/block/PegboardBlock.java",
+          "src/main/resources/assets/create_designed_decor/blockstates/pegboard.json",
+          "src/main/resources/assets/create_designed_decor/models/block/pegboard.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/pegboard.json",
+          "src/main/resources/assets/create_designed_decor/models/item/pegboard.json"
+        ]
+      }
+    },
+    {
+      "name": "DeskRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desk_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/desk_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SolarPanelBig",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_big",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/blockstates/solar_panel_big.json",
+          "src/main/resources/assets/create_designed_decor/models/block/solar_panel_big.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/SolarPanelBigBlock.java",
+          "src/main/resources/assets/create_designed_decor/models/item/solar_panel_big.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/solar_panel_big.json"
+        ]
+      }
+    },
+    {
+      "name": "SolarCell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_cell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/blockstates/solar_cell.json",
+          "src/main/resources/assets/create_designed_decor/models/item/solar_cell.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/SolarCellBlock.java",
+          "src/main/resources/assets/create_designed_decor/models/block/solar_cell.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/solar_cell.json"
+        ]
+      }
+    },
+    {
+      "name": "Solarbase",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarbase",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/block/solarbase.json",
+          "src/main/resources/assets/create_designed_decor/models/item/solarbase.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/solarbase.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/solarbase.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/SolarbaseBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Solarpanelbigrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarpanelbigrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/solarpanelbigrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MetalFrame",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/metal_frame.json",
+          "src/main/resources/assets/create_designed_decor/models/block/metal_frame.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/MetalFrameBlock.java",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/metal_frame.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/metal_frame.json"
+        ]
+      }
+    },
+    {
+      "name": "MetalFrameRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_frame_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/metal_frame_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Solarcellpart",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarcellpart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/solarcellpart.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/solarcellpart.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/solarcellpart.json",
+          "src/main/resources/assets/create_designed_decor/models/block/solarcellpart.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/SolarcellpartBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Solarcellrecipe",
+      "type": "modded_recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarcellrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/item_application/solarcellrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Solarcellpartrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solarcellpartrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/solarcellpartrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Threekcake",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "threekcake",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/threekcake.json",
+          "src/main/resources/assets/create_designed_decor/blockstates/threekcake.json",
+          "src/main/resources/assets/create_designed_decor/models/block/threekcake.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/ThreekcakeBlock.java",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/threekcake.json"
+        ]
+      }
+    },
+    {
+      "name": "Threekcakerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "threekcakerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/threekcakerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SafetySign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "safety_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/safety_sign.json",
+          "src/main/resources/assets/create_designed_decor/models/block/safety_sign.json",
+          "src/main/resources/assets/create_designed_decor/models/item/safety_sign.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/SafetySignBlock.java",
+          "src/main/resources/assets/create_designed_decor/blockstates/safety_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "Safetysignrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "safetysignrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/safetysignrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectricalPanel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrical_panel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/electrical_panel.json",
+          "src/main/resources/assets/create_designed_decor/models/item/electrical_panel.json",
+          "src/main/resources/assets/create_designed_decor/models/block/electrical_panel.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/ElectricalPanelBlock.java",
+          "src/main/resources/assets/create_designed_decor/blockstates/electrical_panel.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectricalPanelrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrical_panelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/electrical_panelrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Microphone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microphone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/blockstates/microphone.json",
+          "src/main/resources/assets/create_designed_decor/models/item/microphone.json",
+          "src/main/resources/assets/create_designed_decor/models/block/microphone.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/microphone.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/MicrophoneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MicrophoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microphone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/microphone_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WorkshopFloorMat",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workshop_floor_mat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/blockstates/workshop_floor_mat.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/WorkshopFloorMatBlock.java",
+          "src/main/resources/assets/create_designed_decor/models/item/workshop_floor_mat.json",
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/workshop_floor_mat.json",
+          "src/main/resources/assets/create_designed_decor/models/block/workshop_floor_mat.json"
+        ]
+      }
+    },
+    {
+      "name": "Workshopfloormatrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workshopfloormatrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/workshopfloormatrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WeldingStation",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welding_station",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/loot_tables/blocks/welding_station.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/block/WeldingStationBlock.java",
+          "src/main/resources/assets/create_designed_decor/blockstates/welding_station.json",
+          "src/main/resources/assets/create_designed_decor/models/item/welding_station.json",
+          "src/main/resources/assets/create_designed_decor/models/block/welding_station.json"
+        ]
+      }
+    },
+    {
+      "name": "WeldingstationRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weldingstation_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/weldingstation_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sheet",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/SteelSheetItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/steel_sheet.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/SteelIngotItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/steel_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "IntergratedCircit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intergrated_circit",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/IntergratedCircitItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/intergrated_circit.json"
+        ]
+      }
+    },
+    {
+      "name": "EmptyCircut",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_circut",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/empty_circut.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/item/EmptyCircutItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelPressing",
+      "type": "modded_recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pressing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/pressing/steel_pressing.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelCircut",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_circut",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/SteelCircutItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/steel_circut.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelCircutRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_circut_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/steel_circut_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IntergratedCircutRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intergrated_circut_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/intergrated_circut_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Magnet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/magnet.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/item/MagnetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LapisCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/LapisCrystalItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/lapis_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/RedstoneCrystalItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/redstone_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "MagnetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/magnet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Diode",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diode",
+      "metadata": {
+        "files": [
+          "src/main/java/com/createmodfan/createdesigneddecor/item/DiodeItem.java",
+          "src/main/resources/assets/create_designed_decor/models/item/diode.json"
+        ]
+      }
+    },
+    {
+      "name": "DiodeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diode_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/diode_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Inductor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inductor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/inductor.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/item/InductorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Inductorrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inductorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/inductorrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Resistor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resistor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/resistor.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/item/ResistorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Resistorresipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resistorresipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/resistorresipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Transistor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transistor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/transistor.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/item/TransistorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Transistorrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transistorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/transistorrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/steel_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Capacitor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capacitor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_designed_decor/models/item/capacitor.json",
+          "src/main/java/com/createmodfan/createdesigneddecor/item/CapacitorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Capacitorrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capacitorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_designed_decor/recipes/capacitorrecipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "cardboard_step",
+      "files": [
+        "686733__syenasweta__cardboard-paper-tension"
+      ],
+      "category": "neutral",
+      "subtitle": "cardboard step"
+    },
+    {
+      "name": "cardboard_fall",
+      "files": [
+        "215475__thewavlab__cardboardboxes_01"
+      ],
+      "category": "neutral",
+      "subtitle": "cardboard fall"
+    },
+    {
+      "name": "cardboard_break",
+      "files": [
+        "615501__entagon__powerful-ripping-of-cardboard"
+      ],
+      "category": "neutral",
+      "subtitle": "Cardboard Break"
+    },
+    {
+      "name": "cardboard_place",
+      "files": [
+        "729285__fordps3__dropping-a-cardboard-box-and-rubbing-it"
+      ],
+      "category": "neutral",
+      "subtitle": "Place Cardboard"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Desk1"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.create_designed_decor.inductor": "Inductor",
+      "item.create_designed_decor.red_hard_hat_helmet": "Red Hard Hat",
+      "item.create_designed_decor.white_hard_hat_helmet": "White Hard Hat",
+      "subtitles.cardboard_step": "cardboard step",
+      "block.create_designed_decor.desk_1": "Desk 1",
+      "item.create_designed_decor.resistor": "Resistor",
+      "block.create_designed_decor.blue_post_box": "Blue Post Box",
+      "block.create_designed_decor.weatheredironwindow": "Weathered iron window",
+      "item.create_designed_decor.cleaking_helper_spawn_egg": "Cleaking Helper Spawn Egg",
+      "item.create_designed_decor.steel_circut": "Steel Circut",
+      "item.create_designed_decor.magnet": "Magnet",
+      "block.create_designed_decor.microphone": "Microphone",
+      "block.create_designed_decor.floor_miter_saw": "Floor Miter Saw",
+      "item.create_designed_decor.cardboard_sheet": "Cardboard Sheet",
+      "item.create_designed_decor.redstone_crystal": "Redstone Crystal",
+      "block.create_designed_decor.blueprint": "Blueprint",
+      "block.create_designed_decor.bound_cardbaord": "Bound Cardbaord",
+      "block.create_designed_decor.pegboard": "Pegboard",
+      "subtitles.cardboard_break": "Cardboard Break",
+      "item.create_designed_decor.steel_sheet": "Steel Sheet",
+      "item.create_designed_decor.empty_circut": "Empty Circut",
+      "item.create_designed_decor.pulp": "Pulp",
+      "item_group.create_designed_decor.designed_decor": "Designed Decor",
+      "item.create_designed_decor.capacitor": "Capacitor",
+      "subtitles.cardboard_fall": "cardboard fall",
+      "entity.create_designed_decor.cleaking_helper": "Cleaking Helper",
+      "block.create_designed_decor.welding_station": "Welding Station",
+      "item.create_designed_decor.lapis_crystal": "Lapis Crystal",
+      "item.create_designed_decor.yellow_hard_hat_helmet": "Yellow Hard Hat",
+      "block.create_designed_decor.solar_panel_big": "Solar Panel",
+      "advancements.this_again.title": "...This Again?",
+      "block.create_designed_decor.tool_cabinet": "Tool Cabinet",
+      "block.create_designed_decor.workshop_floor_mat": "Workshop Floor Mat",
+      "block.create_designed_decor.solarbase": "Solarbase",
+      "item.create_designed_decor.orange_fabric": "Orange Fabric",
+      "item.create_designed_decor.orange_hard_hat_helmet": "Orange Hard Hat",
+      "block.create_designed_decor.solarcellpart": "Solar cell part",
+      "block.create_designed_decor.cardboard": "Cardboard",
+      "item.create_designed_decor.saw_blade": "Saw Blade",
+      "advancements.that_looks_familiar.descr": "You\u0027ve crafted a box so absurdly complicated, it\u0027s almost as if you took a page from Spindle\u0027s playbook. Surely, no one needs this many resources for a single crate... but then again, when has balance ever been the goal? Congratulations on your ridiculous achievement!",
+      "block.create_designed_decor.traffic_cone": "Traffic Cone",
+      "item.create_designed_decor.steel_ingot": "Steel Ingot",
+      "item.create_designed_decor.transistor": "Transistor",
+      "item.create_designed_decor.cardboard_roll": "Cardboard Roll",
+      "block.create_designed_decor.blueprint_table": "Blueprint Table",
+      "block.create_designed_decor.road_barrier": "Road Barrier",
+      "item.create_designed_decor.safety_vest_chestplate": "Safety Vest",
+      "item.create_designed_decor.blue_hard_hat_helmet": "Blue Hard Hat",
+      "item.create_designed_decor.packingtape": "Packingtape",
+      "advancements.that_looks_familiar.title": "That Looks Familiar...",
+      "block.create_designed_decor.desktop": "Desktop",
+      "block.create_designed_decor.metal_frame": "Metal Frame",
+      "block.create_designed_decor.cavestone": "Spindle Crate",
+      "block.create_designed_decor.weathered_iron_block": "Weathered Iron Block",
+      "block.create_designed_decor.blueprint_pile": "Blueprint Pile",
+      "block.create_designed_decor.threekcake": "3000 download cake",
+      "subtitles.cardboard_place": "Place Cardboard",
+      "item.create_designed_decor.blahaj": "Blahaj",
+      "advancements.this_again.descr": "You didn’t have to do that. Seriously.",
+      "block.create_designed_decor.safety_sign": "Safety Sign",
+      "block.create_designed_decor.wrenchly_box": "Wrenchly Box",
+      "block.create_designed_decor.solar_cell": "Solar Cell",
+      "item.create_designed_decor.sawdust": "Sawdust",
+      "block.create_designed_decor.tool_rack": "Tool Rack",
+      "block.create_designed_decor.electrical_panel": "Electrical Panel",
+      "block.create_designed_decor.blue_table_cloth": "Blue Table Cloth",
+      "item.create_designed_decor.diode": "Diode",
+      "block.create_designed_decor.miter_saw": "Miter Saw",
+      "item.create_designed_decor.intergrated_circit": "Intergrated Circit"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "create_designed_decor",
+    "modName": "Create Designed Decor",
+    "version": "3.1.0",
+    "description": "Adds cool stuff I want",
+    "author": "CreateModFan12, MCreator, The Create Team",
+    "websiteURL": "https://discord.gg/PShTNDnc",
+    "license": "Custom license",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "create"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Made with Mcreator; Credit to The Create Team for the clutter models.",
+    "modElementsPackage": "com.createmodfan.createdesigneddecor"
+  },
+  "mcreatorVersion": 202500113416
+}
