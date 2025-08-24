@@ -3,7 +3,7 @@
 
 Thank you wonderful people who made this dream of being a modder a reality ❤️
 
-👉 Let’s see if we can reach **4K downloads this week!** Share with your friends!
+👉 We are almost at 5k downloads; Offcial Designed Decor repo will be live at 5k
 
 📌 **Official Discord:** [Join Here](https://discord.gg/gv8yTq73Kt)
 
